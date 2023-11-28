@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pesonal Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <h1>Michael</h1>
+      <nav>
+        <a href="#about">About me</a>
+        <a href="#work">Work</a>
+        <a href="#contact-me">Contact Me</a>
+        <a href="/Michael Resume.pdf" download="">Resume</a>
+        <a
+          href="https://www.linkedin.com/in/michael-ergette-a956871a0/"
+          target="_blank"
+          class="ri-linkedin-box-fill"
+        ></a>
+        <a
+          href="https://github.com/michaelerg/Personal-portfolio/"
+          target="_blank"
+          class="ri-github-fill"
+        ></a>
+      </nav>
+    </header>
+
+    <section class="banner">
+      <div>
+        <h2>Projects</h2>
+      </div>
+    </section>
+
+    <main class="page-wrapper">
+      <section class="page-section" id="about">
+        <div>
+          <h2>About me</h2>
+          <img
+            src="./profile pic.jpeg"
+            alt="Profile picture"
+            style="
+              width: 200px;
+              height: 200px;
+              border-style: solid;
+              border-color: goldenrod;
+            "
+          />
+        </div>
+
+        <p>
+          Hi! I'm a junior front-end web developer with a Masters in Economics
+          and Finance, coupled with valuable experience as an analyst. My
+          analytical background enhances my precision in coding, ensuring clean
+          and effective solutions. I'm dedicated to staying current with
+          industry trends, bringing a unique blend of financial acumen and
+          coding skills to every project. Excited to contribute to innovative
+          endeavors that showcase my commitment to excellence.
+        </p>
+      </section>
+
+      <section class="page-section" id="work">
+        <h2>Work</h2>
+        <h3>
+          <a href="file:///C:/Users/bootcamp/firstHTML.html/firstHTML.html/"
+            ><img
+              src="./firsthtml pic.jpg"
+              alt="My first html project"
+              style="
+                width: 400px;
+                height: 300px;
+                border-style: solid;
+                border-color: goldenrod;
+              "
+          /></a>
+          <a
+            href="file:///C:/Users/bootcamp/02-css-module/04-responsive-portfolio-lesson/Personal-portfolio/refactor.html"
+            ><img
+              src="./code-refactoring-in-agile-thumbnail.jpg"
+              alt="My first html project"
+              style="
+                width: 400px;
+                height: 300px;
+                border-style: solid;
+                border-color: goldenrod;
+              "
+          /></a>
+          <a
+            href="https://theredflowerfactory.com/blog/why-inclusivity-and-diversity-are-essential-to-the-future-of-brands-advertising-strategies/"
+            ><img
+              src=".\blog.png"
+              alt="My blog"
+              style="
+                width: 400px;
+                height: 300px;
+                border-style: solid;
+                border-color: goldenrod;
+              "
+          /></a>
+
+          <a href=""
+          ><img
+            src="./a-caramel-skinned-man-looking-out-at-the-sunset-in-a-rural-area-in-a-luxury-treehouse-ultrahd-zoom-781305905.png"
+
+            alt="OM1 Podcast picture"
+            style="
+              width: 400px;
+              height: 300px;
+              border-style: solid;
+              border-color: goldenrod;
+            "
+              />
+                <div> OM1 Podcast Website </div>
+          </a>
+          <a href=""
+          ><img
+          src="./logo-for-mousetrap-muscle-fitness-brand-ultra-hd-cartoon--87615038.png"
+          alt="MouseTrap Muscle logo"
+          style="
+            width: 400px;
+            height: 300px;
+            border-style: solid;
+            border-color: goldenrod;
+          "
+          /></a>
+
+
+          <a href="https://www.linkedin.com/in/michael-ergette-a956871a0/"
+            >
+            <figure>
+            <img
+              src="./linkedin profile.png"
+              alt="My Linkedin Profile"
+              style="
+                width: 400px;
+                height: 300px;
+                border-style: solid;
+                border-color: goldenrod;
+              "
+                    />
+                 <figcaption> Linkedin Profile</figcaption>
+              </figure>
+          </a>
+        </h3>
+      </section>
+
+      <section class="page-section" id="contact-me">
+        <h2>Contact me</h2>
+        <h3>
+          <a href=mailto:"michael.ergette@hotmail.com"> Email address: michael.ergette@hotmail.com</a>
+        </h3>
+        
+        <h3> Phone Number: 07871510888 </h3>
+      </section>
+
+      <div class="input">
+        <paper-input label="Type message..." value="{{input}}"></paper-input>
+        <paper-fab
+          icon="send"
+          id="sendButton"
+          on-tap="{{sendMyMessage}}"
+        ></paper-fab>
+      </div>
+    </main>
+  </body>
+</html>

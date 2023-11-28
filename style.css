@@ -1,0 +1,144 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: blanchedalmond;
+}
+
+header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: goldenrod;
+  height: 10%;
+  align-items: center;
+}
+
+
+header {font-weight: var(--font-semi-bold);
+  color: white
+        }
+header h1{
+    margin: 0;
+    line-height: 3;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+
+.page-section h2{
+
+    display: flex; 
+    align-items: center; 
+    justify-content: center;"
+
+}
+
+nav a{
+    padding: 4px 8px;
+    font-size: 20px;
+    font-weight: var(--font-semi-bold);
+     color: white
+
+}
+
+nav a :hover {
+    color: var(--first-color);
+}
+
+.banner {
+ background-image: url("./san-francisco-skyline-upsplash.png");
+ min-height: 25vh;
+ background: rgb(red, green, blue);
+
+}
+
+
+.banner h2 {
+    font-weight: var(--font-semi-bold);
+    color: white
+}
+
+
+.page-section h3 {
+    padding-left: 10em;
+}
+
+/* .page-section p {
+    padding-left: 10em;
+} */
+
+a.page-section { cursor: pointer; }
+
+.page-section {
+    background-color: rgb(red, green, blue);
+    border-style: solid;
+    border-left: 10px solid black;
+    border-color: goldenrod;
+    /* flex-direction: column; */
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;}
+
+#about{
+    height: 33vh;
+    font-size: 25px;
+    text-align:left;}
+
+#about h3{
+    font-size: 20px;
+    display: flex;
+    margin-left: 40px;
+}
+
+p{
+    margin-left: 14px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+.page-section:hover {
+    background-color:green;
+    }
+
+.page-section h3 {
+    color: #00e;;
+}
+
+.page-section h3:hover{
+    color:blueviolet;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    justify-content: flex-start;
+    width:100%;
+  }
+
+  /* div {
+    border-left: 1px solid black;
+    height: 100px;
+  } */
+
+figure {
+    border: 1px #cccccc solid;
+    padding: 4px;
+    margin: 50px auto;
+  }
+  
+figcaption {
+    background-color: goldenrod;
+    color: white;
+    font-style: italic;
+    padding: 2px;
+    text-align: center;
+    display: inline-block;
+    transform: translate(-250px, 0px);
+  }
