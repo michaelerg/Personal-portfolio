@@ -84,10 +84,27 @@ a.page-section { cursor: pointer; }
     display: flex;
     align-items: center;}
 
+#work {
+    display: flex;
+    flex-direction: column; 
+    /* display: grid;
+    grid-template-rows: 300px 300px;
+    grid-template-columns: 1fr 1fr 1fr; */
+    /* grid-template-areas: "project1 project2 project3"
+    "proje"; */
+
+}
+
 #about{
     height: 33vh;
     font-size: 25px;
     text-align:left;}
+
+
+#about h2{
+    display: flex;
+    flex-direction: column;
+}
 
 #about h3{
     font-size: 20px;
@@ -114,20 +131,20 @@ html {
     color:blueviolet;
 }
 
-.input {
+/* .input {
     display: flex;
     flex-direction: column;
     align-self: flex-end;
     justify-content: flex-start;
     width:100%;
-  }
+  } */
 
   /* div {
     border-left: 1px solid black;
     height: 100px;
   } */
 
-figure {
+/* figure {
     border: 1px #cccccc solid;
     padding: 4px;
     margin: 50px auto;
@@ -141,4 +158,4 @@ figcaption {
     text-align: center;
     display: inline-block;
     transform: translate(-250px, 0px);
-  }
+  } */
